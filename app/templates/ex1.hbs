@@ -5,11 +5,16 @@
     Ex1 : Note application
   </div>
   <div class="card-body">
-    <Textarea class="form-control mb-3" rows="4" @value={{this.content}}/>
+
+    <Textarea @input={{this.update}} class="form-control mb-3" rows="4" @value={{this.content}} @maxlength ={{this.MAX}}/>
     <div class="alert alert-info"> Il vous reste {{this.size}} caractères à saisir</div>
-    <div class="alert alert-info"></div>
   </div>
+  {{#if this.info}}
+    <div class="alert alert-{{this.style}}">{{this.info}}</div>
+  {{/if}}
 </div>
+
+
 
 <button class= "btn btn-primary" {{action "save"}}>Enregistrer</button>
 <button class= "btn btn-primary" {{action "clear"}}>Effacer</button>
