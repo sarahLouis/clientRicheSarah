@@ -10,6 +10,13 @@ export default class Ex1Controller extends Controller {
     return this.MAX - this.content.length;
   }
   @action save() {
-    console.log('test save' + this.content);
+    var lala = this.content;
+    console.log('test save ' + this.content);
+  }
+  @action clear(){
+    this.content = '';
+  }
+  @action update(){
+    
   }
 }
