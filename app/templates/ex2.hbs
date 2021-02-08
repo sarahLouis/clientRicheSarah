@@ -1,7 +1,25 @@
 {{page-title "Ex2"}}
-<h1>Services</h1>
+
 <div class="alert alert-info">
-  <span>Choisissez les éléments à inclure</span>
+  <span>Cliquez sur un service pour le séléctionner</span>
 </div>
+
+<ul>
+  {{#each @model.services as |srv|}}
+    <li class="list-group-item {{if srv.active "active"}}" {{action "toggleActive" srv}}>{{srv.name}} {{srv.price}}</li>
+  {{/each}}
+</ul>
+
+<p> {{plural @model.countActive}}</p>
+<p class="alert alert-info"> Total : {{format-currency @model.sumActive "$"}}</p>
+
+<div class="alert alert-info">
+  <input type="checkbox" id="promoCheck" name="promoCheck" value="">
+  <Input type="text" id="promo" @value={{@model.code}} name="promo" placeholder="code promo"/>
+</div>
+
+<p class="alert alert-info" id="remise"> Remise : {{format-currency @model.promoValue   "$"}}</p>
+<p class="alert alert-info" id="total" > Total avec remise : {{format-currency @model.priceWithPromo   "$"}}</p>
+
 
 {{outlet}}

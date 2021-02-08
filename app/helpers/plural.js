@@ -13,4 +13,3 @@ switch (nb) {
 }
 
 export default helper(plural);
-

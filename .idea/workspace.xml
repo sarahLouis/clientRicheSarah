@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d6a6d8ca-d486-44d9-becc-20ca0acbc6d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/ex2.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/ex2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/classes/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/classes/services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/plural.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/plural.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/ex2.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/ex2.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +60,8 @@
       <updated>1611676127562</updated>
       <workItem from="1611676132325" duration="18000" />
       <workItem from="1612281916966" duration="1013000" />
+      <workItem from="1612611485498" duration="10000" />
+      <workItem from="1612820488570" duration="464000" />
     </task>
     <servers />
   </component>
@@ -75,5 +78,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
