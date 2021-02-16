@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d6a6d8ca-d486-44d9-becc-20ca0acbc6d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/test-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/test-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/test-new.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/test-new.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/test-list.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/test-list.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/test-new.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/test-new.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
       <updated>1611676127562</updated>
       <workItem from="1611676132325" duration="18000" />
       <workItem from="1612273179116" duration="328000" />
-      <workItem from="1613482755371" duration="3847000" />
+      <workItem from="1613482755371" duration="4614000" />
     </task>
     <servers />
   </component>
