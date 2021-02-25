@@ -1,7 +1,18 @@
-import Model, { attr } from '@ember-data/model';
+export default class Contacts {
+  datas;
+  constructor(datas) {
+    this.datas = datas;
+  }
 
-export default class Contacts{
+  get contacts() {
+    return this.datas.filterBy('isDeleted', false);
+  }
 
-  constructor() {
+  get deleteds() {
+    return this.datas.filterBy('isDeleted', true);
+  }
+
+  get deletedCount() {
+    return this.deleteds.length;
   }
 }
