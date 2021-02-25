@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6a6d8ca-d486-44d9-becc-20ca0acbc6d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/classes/Contacts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/contacts/add.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/contacts/update.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/contacts/update.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/contacts/update.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +52,7 @@
       <workItem from="1611676132325" duration="18000" />
       <workItem from="1612273179116" duration="328000" />
       <workItem from="1613482755371" duration="5561000" />
+      <workItem from="1614246905731" duration="331000" />
     </task>
     <servers />
   </component>
@@ -70,5 +69,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
