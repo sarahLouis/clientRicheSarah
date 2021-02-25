@@ -1,2 +1,16 @@
 {{page-title "Categories"}}
+<table class="table table-striped table-dark">
+  <thead>
+  <tr>
+    <td>Nom Category</td>
+  </tr>
+  </thead>
+  <tbody>
+  {{#each @model as |category|}}
+    <tr>
+      <td>{{category.name}}</td>
+    </tr>
+  {{/each}}
+  </tbody>
+</table>
 {{outlet}}
