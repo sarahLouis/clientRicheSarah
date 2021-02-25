@@ -1,6 +1,6 @@
 {{page-title "TestNew"}}
 
-<Input @value="{{@model.nom}}"/>
+<Input @value={{@model.nom}} placeholder="Entrez votre nom"/>
 <button {{action "save" @model}}>Enregistrer</button>
 
 {{outlet}}
