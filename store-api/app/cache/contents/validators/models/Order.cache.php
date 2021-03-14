@@ -1,0 +1,2 @@
+<?php
+return array("id"=>array(array("type"=>"id","constraints"=>array("autoinc"=>true))),"dateCreation"=>array(array("type"=>"notNull","constraints"=>array())),"status"=>array(array("type"=>"notNull","constraints"=>array())),"amount"=>array(array("type"=>"notNull","constraints"=>array())),"toPay"=>array(array("type"=>"notNull","constraints"=>array())),"itemsNumber"=>array(array("type"=>"notNull","constraints"=>array())),"missingNumber"=>array(array("type"=>"notNull","constraints"=>array())));
