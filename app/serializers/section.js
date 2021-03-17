@@ -7,6 +7,4 @@ export default class SectionSerializer extends JSONSerializer.extends(
   attrs = {
     products: { embedded: 'always' },
   };
-
-
 }
