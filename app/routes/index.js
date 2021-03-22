@@ -1,26 +1,23 @@
 import Route from '@ember/routing/route';
 import { action } from '@ember/object';
-import { inject as service } from '@ember/service';
 
 export default class IndexRoute extends Route {
-  @service userAuth;
   model() {
     return {};
   }
 
-  @action
-  login(name, password) {
+  @action login(user) {
     this.store
       .query('employee', {
         filter: {
-          name: name,
+          email: user.email,
         },
       })
-      .then((users) => {
-        if (users.length) {
-          let user = users.firstObject;
-          if (password == user.password) {
-            this.userAuth.login(user);
+      .then((employees) => {
+        if (employees.length) {
+          let connected = employees.firstObject;
+          if (connected.password && connected.password === user.password) {
+            this.userAuth.login(connected);
             this.transitionTo('board');
           }
         }
