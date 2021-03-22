@@ -10,8 +10,4 @@ Router.map(function () {
   this.route('board');
   this.route('logout');
   this.route('sections');
-
-  this.route('order', function() {
-    this.route(':order_id');
-  });
 });
