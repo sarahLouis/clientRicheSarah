@@ -1,0 +1,16 @@
+{{page-title "Section"}}
+
+<h1>Store</h1>
+<h3>Gestion des sections</h3>
+
+
+
+<h3>Section</h3>
+{{#each @model as |sec|}}
+  <span>{{sec.name}}</span>
+  <l><i>{{sec.descritpion}}</i></l>
+  <button>Modifier</button>
+  <button>Supprimer</button>
+{{/each}}
+
+{{outlet}}
