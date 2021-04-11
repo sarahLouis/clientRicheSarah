@@ -11,6 +11,9 @@ Router.map(function () {
   this.route('logout');
   this.route('section', function () {
     this.route('add');
-    this.route('addproduct');
+    this.route('addProduct');
+    this.route('delete', { path: 'delete/:section_id' });
+    this.route('edit', { path: 'edit/:section_id' });
   });
+  this.route('products');
 });

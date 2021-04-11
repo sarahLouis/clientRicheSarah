@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6a6d8ca-d486-44d9-becc-20ca0acbc6d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/templates/section.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/section.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/section.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/product.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/sections.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/section.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/sections.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/section.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/section/add-product.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/section/add-product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/section/add.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/section/add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/section.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/section/add-product.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/section/add-product.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/section/add.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/section/add.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -67,7 +71,9 @@
       <workItem from="1616181376246" duration="455000" />
       <workItem from="1616345827514" duration="217000" />
       <workItem from="1616443091772" duration="3719000" />
-      <workItem from="1616591219799" duration="4319000" />
+      <workItem from="1616591219799" duration="5190000" />
+      <workItem from="1617353840147" duration="1369000" />
+      <workItem from="1618145530782" duration="6002000" />
     </task>
     <servers />
   </component>

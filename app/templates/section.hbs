@@ -1,16 +1,13 @@
 {{page-title "Section"}}
-
 <h1>Store</h1>
 <h3>Gestion des sections</h3>
+<button {{action "addSection"}}>Nouvelle section...</button>
+<button {{action "addProduit"}}>Nouvelle produit...</button>
 
+<h3>Sections</h3>
+{{#each @model as |section|}}
+  <h4>{{section.name}}</h4>
+  <button {{action "DeleteSection" sec}}>Supprimer... </button>
 
-
-<h3>Section</h3>
-{{#each @model as |sec|}}
-  <span>{{sec.name}}</span>
-  <l><i>{{sec.descritpion}}</i></l>
-  <button>Modifier</button>
-  <button>Supprimer</button>
 {{/each}}
-
 {{outlet}}

@@ -1,18 +1,21 @@
-import Route from '@ember/routing/route';
+import Abstractroute from "./Abstractroute";
 import { action } from '@ember/object';
-
-export default class SectionRoute extends Route {
+export default class SectionRoute extends Abstractroute {
   model() {
-    return this.store.query('section', {});
   }
 
   @action
-  addProduct() {
+  addSection(){
+    this.transitionTo('section.add');
+  }
+
+  @action
+  addProduit(){
     this.transitionTo('section.addProduct');
   }
-
-  @action
-  add() {
-    this.transitionTo('section.add');
+  @action DeleteSection(section) {
+    this.deleteProducts(section.products).then(() => {
+      section.destroyRecord();
+    });
   }
 }
